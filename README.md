@@ -177,8 +177,6 @@ and running *demo.py* and *evaluation.py* with the `--alternate_corr` flag Note,
 
 ## TO DO
 
-You can optionally use our alternate (efficent) implementation by compiling the provided cuda extension:
-
 ```
 [x] Releasing Testing code and pre-trained models.
 [x] Releasing evaluation code.
