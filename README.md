@@ -78,7 +78,7 @@ def gemerate_haze(rgb, depth, k, beta):
     return fog_image
 ```
 
-Moreover, we use the *Adobe Effect* software to simulate the rain streaks on clean images of KITTI for synthetic rainy images. Besides, we also need to self-collect the real weather images for training. Here, we choose the KITTI as clean version and use the above strategy to generate the corresponding synthetic foggy/rainy images. We also provide the real weather flow dataset *Real-Weather World*, including real foggy images [UCDA-Fog](https://drive.google.com/file/d/19niZjG_IvC0NZUDZ2ELVlt73BdvHHfdn/view?usp=sharing). Note that, we will provide more real rainy and snowy images with flow GTs in the future.
+Moreover, we use the *Adobe Effect* software to simulate the rain streaks on clean images of KITTI for synthetic rainy images. Besides, we also need to self-collect the real weather images for training. Here, we choose the KITTI as clean version and use the above strategy to generate the corresponding synthetic foggy/rainy images. We also provide the real weather flow dataset [*Real-Weather World*](https://huggingface.co/datasets/HYzhou123/Real-Weather_World), including real foggy images. Note that, we will provide more real rainy and snowy images with flow GTs in the future.
 
 ## Training
 
